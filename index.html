@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>scrollAccordion</title>
+
+	<!-- <link href="style/global.css" rel="stylesheet" /> -->
+	<link href="style/scroll-accordion.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="container-wrapper">
+		<div class="github-redirect">
+			<a href="https://github.com/Vigorski/scrollAccordion" target="_blank">
+				<span>Fork it: </span>
+				<i class="icon-github icon-md"></i>
+			</a>
+		</div>
+		<main>
+			<!-- <div class="table-wrapper" style="max-height: 500px; overflow: auto;"> -->
+			<div class="table-wrapper">
+				<div class="accordion-toggle-wrapper">
+					<h3 id="expandCollapse-CJ"  class="accordion-toggle expanded-all">
+						<i class="icon-xs icon-eye-purple mr-sm"></i>
+						<span>Expand All</span>
+					</h3>
+				</div>
+				
+				<section>
+					<h3 class="section-title">Indented accordion instance with tables</h3>
+
+					<div class="accordion-indented">
+						<ul class="accordion-main scroll-accordion">
+							<li class="accordion-main-item">
+								<div class="scroll-accordion-header scroll-accordion-border-bot">
+									<h3 class="scroll-accordion-header-title">Double accordion with tables</h3>
+									<div class="scroll-accordion-header-detail text-right pr-xxs">
+										<i class="icon-xs icon-chevron-purple"></i>
+									</div>
+								</div>
+								<div class="scroll-accordion-body accordion-main-body">
+									<div class="table-wrapper-accordion">
+										<table class="table-tabbed-core">
+											<thead>
+												<tr>
+													<th class="maxw-120">Folder</th>
+													<th>Faux transaction id</th>
+													<th class="text-right maxw-120">Debit</th>
+													<th class="text-right maxw-135 pr-xxs">Credit</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td class="maxw-120">INST</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">416082180</a>
+													</td>
+													<td class="text-right maxw-120">5.173,79</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">INST</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">423002230</a>
+													</td>
+													<td class="text-right maxw-120">333,35</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">COCOLO</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">516335000</a>
+													</td>
+													<td class="text-right maxw-120">4.590,14</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">COCOLO</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">516018130</a>
+													</td>
+													<td class="text-right maxw-120">16.008,67</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">COCOLO</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">616355900</a>
+													</td>
+													<td class="text-right maxw-120">11.430,10</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">COCOLO</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">626044000</a>
+													</td>
+													<td class="text-right maxw-120">13.593,06</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">COCOLO</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">666011030</a>
+													</td>
+													<td class="text-right maxw-120">2.109,85</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">COCOLO</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">666005110</a>
+													</td>
+													<td class="text-right maxw-120">30.793,69</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">COCOLO</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">667008110</a>
+													</td>
+													<td class="text-right maxw-120">120.142,70</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">COCOLO</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">667005330</a>
+													</td>
+													<td class="text-right maxw-120">876,09</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">COCOLO</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">668081160</a>
+													</td>
+													<td class="text-right maxw-120">20.420,74</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">COCOLO</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">668465978</a>
+													</td>
+													<td class="text-right maxw-120">58.867,25</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">DODGE</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">669461822</a>
+													</td>
+													<td class="text-right maxw-120">3.734,38</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">DODGE</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">669461822</a>
+													</td>
+													<td class="text-right maxw-120">8.311,12</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">DODGE</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">669461822</a>
+													</td>
+													<td class="text-right maxw-120">590,08</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">DODGE</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">669461822</a>
+													</td>
+													<td class="text-right maxw-120">220,66</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">DODGE</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">669461822</a>
+													</td>
+													<td class="text-right maxw-120">13.661,03</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">DODGE</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">669461822</a>
+													</td>
+													<td class="text-right maxw-120">4.098,13</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">DODGE</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">669461822</a>
+													</td>
+													<td class="text-right maxw-120">2.258,64</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">DODGE</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">669461822</a>
+													</td>
+													<td class="text-right maxw-120">837,47</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">DODGE</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">669461822</a>
+													</td>
+													<td class="text-right maxw-120">24.514,69</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">COFFEE</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">669132002</a>
+													</td>
+													<td class="text-right maxw-120">14.758,57</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">COFFEE</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">669132002</a>
+													</td>
+													<td class="text-right maxw-120">14.219,48</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">COFFEE</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">669132002</a>
+													</td>
+													<td class="text-right maxw-120">3.694,42</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">COFFEE</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">669132002</a>
+													</td>
+													<td class="text-right maxw-120">1.124,33</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+												<tr>
+													<td class="maxw-120">COFFEE</td>
+													<td>
+														<a onclick="event.preventDefault()" href="#">669132002</a>
+													</td>
+													<td class="text-right maxw-120">16.007,23</td>
+													<td class="text-right maxw-135 pr-xxs">-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+									<ul class="accordion-sub scroll-accordion">
+										<li class="accordion-sub-item">
+											<div class="scroll-accordion-header accordion-sub-header">
+												<i class="mr-md icon-xs icon-chevron-purple"></i>
+												<span class="maxw-140">516018130</span>
+												<span>Product name here</span>
+												<span class="text-right maxw-120">Brand</span>
+												<span class="text-right maxw-155 pr-xxs">2,59</span>
+											</div>
+											<div class="scroll-accordion-body accordion-main-body">
+												<div class="table-wrapper-accordion">
+													<table class="table-tabbed-core">
+														<thead>
+															<tr>
+																<th class="maxw-120">Folder</th>
+																<th>Faux transaction id</th>
+																<th class="text-right maxw-120">Debit</th>
+																<th class="text-right maxw-135 pr-xxs">Credit</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="maxw-120">COCOLO</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">416082180</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">2,16</td>
+															</tr>
+															<tr>
+																<td class="maxw-120">DODGE</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">516335000</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">0,43</td>
+															</tr>
+															<tr>
+																<td class="maxw-120">COCOLO</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">416082180</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">2,16</td>
+															</tr>
+															<tr>
+																<td class="maxw-120">DODGE</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">516335000</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">0,43</td>
+															</tr>
+															<tr>
+																<td class="maxw-120">COCOLO</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">416082180</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">2,16</td>
+															</tr>
+															<tr>
+																<td class="maxw-120">DODGE</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">516335000</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">0,43</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</li>
+										<li class="accordion-sub-item">
+											<div class="scroll-accordion-header accordion-sub-header">
+												<i class="mr-md icon-xs icon-chevron-purple"></i>
+												<span class="maxw-140">516018130</span>
+												<span>Product name here</span>
+												<span class="text-right maxw-120">Brand</span>
+												<span class="text-right maxw-155 pr-xxs">2,59</span>
+											</div>
+											<div class="scroll-accordion-body accordion-main-body">
+												<div class="table-wrapper-accordion">
+													<table class="table-tabbed-core">
+														<thead>
+															<tr>
+																<th class="maxw-120">Folder</th>
+																<th>Faux transaction id</th>
+																<th class="text-right maxw-120">Debit</th>
+																<th class="text-right maxw-135 pr-xxs">Credit</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="maxw-120">COCOLO</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">416082180</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">2,16</td>
+															</tr>
+															<tr>
+																<td class="maxw-120">DODGE</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">516335000</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">0,43</td>
+															</tr>
+															<tr>
+																<td class="maxw-120">COCOLO</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">416082180</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">2,16</td>
+															</tr>
+															<tr>
+																<td class="maxw-120">DODGE</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">516335000</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">0,43</td>
+															</tr>
+															<tr>
+																<td class="maxw-120">COCOLO</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">416082180</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">2,16</td>
+															</tr>
+															<tr>
+																<td class="maxw-120">DODGE</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">516335000</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">0,43</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</li>
+										<li class="accordion-sub-item">
+											<div class="scroll-accordion-header accordion-sub-header">
+												<i class="mr-md icon-xs icon-chevron-purple"></i>
+												<span class="maxw-140">516018130</span>
+												<span>Product name here</span>
+												<span class="text-right maxw-120">Brand</span>
+												<span class="text-right maxw-155 pr-xxs">2,59</span>
+											</div>
+											<div class="scroll-accordion-body accordion-main-body">
+												<div class="table-wrapper-accordion">
+													<table class="table-tabbed-core">
+														<thead>
+															<tr>
+																<th class="maxw-120">Folder</th>
+																<th>Faux transaction id</th>
+																<th class="text-right maxw-120">Debit</th>
+																<th class="text-right maxw-135 pr-xxs">Credit</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="maxw-120">COCOLO</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">416082180</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">2,16</td>
+															</tr>
+															<tr>
+																<td class="maxw-120">DODGE</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">516335000</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">0,43</td>
+															</tr>
+															<tr>
+																<td class="maxw-120">COCOLO</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">416082180</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">2,16</td>
+															</tr>
+															<tr>
+																<td class="maxw-120">DODGE</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">516335000</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">0,43</td>
+															</tr>
+															<tr>
+																<td class="maxw-120">COCOLO</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">416082180</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">2,16</td>
+															</tr>
+															<tr>
+																<td class="maxw-120">DODGE</td>
+																<td>
+																	<a onclick="event.preventDefault()" href="#">516335000</a>
+																</td>
+																<td class="text-right maxw-120">-</td>
+																<td class="text-right maxw-135 pr-xxs">0,43</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<section>
+					<h3 class="section-title">Indented accordion instance with long text</h3>
+
+					<div class="accordion-indented">
+						<ul class="accordion-main scroll-accordion">
+							<li class="accordion-main-item">
+								<div class="scroll-accordion-header scroll-accordion-border-bot">
+									<h3 class="scroll-accordion-header-title">Single accordion item with text</h3>
+									<div class="scroll-accordion-header-detail text-right pr-xxs">
+										<i class="icon-xs icon-chevron-purple"></i>
+									</div>
+								</div>
+								<div class="scroll-accordion-body accordion-main-body">
+									<h2>Title</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed consectetur quam. Nulla ac lorem nec lacus euismod auctor. Curabitur malesuada interdum leo, ac hendrerit nibh venenatis non. Fusce feugiat luctus magna vel egestas. Aenean in ex pretium massa laoreet eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed congue libero eu turpis feugiat sollicitudin. Quisque finibus eu arcu non vestibulum. Donec non interdum nulla, eget condimentum justo. Sed nec consectetur arcu. Suspendisse pharetra semper nisl eu efficitur. Proin dictum sit amet elit eget porta. Integer nec metus lacus. Praesent et nunc pellentesque, rutrum urna vitae, laoreet augue. Sed vestibulum nulla nulla, varius gravida augue consequat vel. Nulla a urna volutpat, volutpat lorem sollicitudin, vulputate nulla. Suspendisse eleifend urna ac tellus maximus, id pulvinar sem tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lorem lorem, accumsan nec magna facilisis, dignissim consequat ante. Ut dapibus arcu ac elementum tempor. Proin sed sodales lorem. Curabitur ante ligula, lacinia vestibulum sollicitudin et, ullamcorper ut nulla. Morbi malesuada orci sed lorem volutpat pellentesque. Integer hendrerit nisl vitae erat tempus, a venenatis felis viverra. Sed gravida arcu sodales egestas fringilla. Integer tincidunt consequat vehicula. Duis sagittis nibh et justo consequat accumsan. Maecenas finibus maximus pretium. Proin laoreet enim id nisl cursus blandit. Sed non rutrum dolor, tincidunt scelerisque arcu. Ut lobortis laoreet interdum.</p>
+									<h4>Subtitle</h4>
+									<p>Aliquam id eros nisi. Pellentesque venenatis lectus quis tristique scelerisque. Cras id odio nibh. Curabitur dapibus pharetra ante, eu viverra nisl blandit non. Integer imperdiet feugiat eros quis malesuada. Mauris venenatis quis nunc non faucibus. Nam feugiat vitae lorem et tristique. Sed sollicitudin massa ut mattis pulvinar. Suspendisse molestie magna vel mi tincidunt tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ornare quis mauris a gravida. Praesent viverra ut ante posuere aliquet. Aenean iaculis felis risus, et venenatis libero aliquet et. Aliquam vel metus ac lectus finibus pellentesque eget sit amet enim. Praesent a bibendum lectus. Pellentesque varius leo a sapien sollicitudin, et ultrices enim posuere. Aliquam erat volutpat. Vivamus feugiat efficitur ipsum in viverra. Donec vitae feugiat mauris, eget tempor neque. Vivamus massa ligula, ornare in vehicula eget, placerat at ligula. Cras eu suscipit libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed consectetur quam. Nulla ac lorem nec lacus euismod auctor. Curabitur malesuada interdum leo, ac hendrerit nibh venenatis non. Fusce feugiat luctus magna vel egestas. Aenean in ex pretium massa laoreet eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed congue libero eu turpis feugiat sollicitudin. Quisque finibus eu arcu non vestibulum. Donec non interdum nulla, eget condimentum justo. Sed nec consectetur arcu. Suspendisse pharetra semper nisl eu efficitur. Proin dictum sit amet elit eget porta. Integer nec metus lacus. Praesent et nunc pellentesque, rutrum urna vitae, laoreet augue. Sed vestibulum nulla nulla, varius gravida augue consequat vel. Nulla a urna volutpat, volutpat lorem sollicitudin, vulputate nulla. Suspendisse eleifend urna ac tellus maximus, id pulvinar sem tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lorem lorem, accumsan nec magna facilisis, dignissim consequat ante. Ut dapibus arcu ac elementum tempor. Proin sed sodales lorem. Curabitur ante ligula, lacinia vestibulum sollicitudin et, ullamcorper ut nulla. Morbi malesuada orci sed lorem volutpat pellentesque. Integer hendrerit nisl vitae erat tempus, a venenatis felis viverra. Sed gravida arcu sodales egestas fringilla. Integer tincidunt consequat vehicula. Duis sagittis nibh et justo consequat accumsan. Maecenas finibus maximus pretium. Proin laoreet enim id nisl cursus blandit. Sed non rutrum dolor, tincidunt scelerisque arcu. Ut lobortis laoreet interdum. Aliquam id eros nisi. Pellentesque venenatis lectus quis tristique scelerisque. Cras id odio nibh. Curabitur dapibus pharetra ante, eu viverra nisl blandit non. Integer imperdiet feugiat eros quis malesuada. Mauris venenatis quis nunc non faucibus. Nam feugiat vitae lorem et tristique. Sed sollicitudin massa ut mattis pulvinar. Suspendisse molestie magna vel mi tincidunt tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ornare quis mauris a gravida. Praesent viverra ut ante posuere aliquet. Aenean iaculis felis risus, et venenatis libero aliquet et. Aliquam vel metus ac lectus finibus pellentesque eget sit amet enim. Praesent a bibendum lectus. Pellentesque varius leo a sapien sollicitudin, et ultrices enim posuere. Aliquam erat volutpat. Vivamus feugiat efficitur ipsum in viverra. Donec vitae feugiat mauris, eget tempor neque. Vivamus massa ligula, ornare in vehicula eget, placerat at ligula. Cras eu suscipit libero.</p>
+								</div>
+							</li>
+							<li class="accordion-main-item">
+								<div class="scroll-accordion-header scroll-accordion-border-bot">
+									<h3 class="scroll-accordion-header-title">Indented accordion item with text</h3>
+									<div class="scroll-accordion-header-detail text-right pr-xxs">
+										<i class="icon-xs icon-chevron-purple"></i>
+									</div>
+								</div>
+								<div class="scroll-accordion-body accordion-main-body">
+									<ul class="accordion-sub scroll-accordion">
+										<li class="accordion-sub-item">
+											<div class="scroll-accordion-header accordion-sub-header">
+												<h3 class="scroll-accordion-header-title">Sub-accordion item 1</h3>
+												<div class="scroll-accordion-header-detail text-right pr-xxs">
+													<i class="icon-xs icon-chevron-purple"></i>
+												</div>
+											</div>
+											<div class="scroll-accordion-body accordion-main-body">
+												<h2>Title</h2>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed consectetur quam. Nulla ac lorem nec lacus euismod auctor. Curabitur malesuada interdum leo, ac hendrerit nibh venenatis non. Fusce feugiat luctus magna vel egestas. Aenean in ex pretium massa laoreet eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed congue libero eu turpis feugiat sollicitudin. Quisque finibus eu arcu non vestibulum. Donec non interdum nulla, eget condimentum justo. Sed nec consectetur arcu. Suspendisse pharetra semper nisl eu efficitur. Proin dictum sit amet elit eget porta. Integer nec metus lacus. Praesent et nunc pellentesque, rutrum urna vitae, laoreet augue. Sed vestibulum nulla nulla, varius gravida augue consequat vel. Nulla a urna volutpat, volutpat lorem sollicitudin, vulputate nulla. Suspendisse eleifend urna ac tellus maximus, id pulvinar sem tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lorem lorem, accumsan nec magna facilisis, dignissim consequat ante. Ut dapibus arcu ac elementum tempor. Proin sed sodales lorem. Curabitur ante ligula, lacinia vestibulum sollicitudin et, ullamcorper ut nulla. Morbi malesuada orci sed lorem volutpat pellentesque. Integer hendrerit nisl vitae erat tempus, a venenatis felis viverra. Sed gravida arcu sodales egestas fringilla. Integer tincidunt consequat vehicula. Duis sagittis nibh et justo consequat accumsan. Maecenas finibus maximus pretium. Proin laoreet enim id nisl cursus blandit. Sed non rutrum dolor, tincidunt scelerisque arcu. Ut lobortis laoreet interdum.</p>
+												<h4>Subtitle</h4>
+												<p>Aliquam id eros nisi. Pellentesque venenatis lectus quis tristique scelerisque. Cras id odio nibh. Curabitur dapibus pharetra ante, eu viverra nisl blandit non. Integer imperdiet feugiat eros quis malesuada. Mauris venenatis quis nunc non faucibus. Nam feugiat vitae lorem et tristique. Sed sollicitudin massa ut mattis pulvinar. Suspendisse molestie magna vel mi tincidunt tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ornare quis mauris a gravida. Praesent viverra ut ante posuere aliquet. Aenean iaculis felis risus, et venenatis libero aliquet et. Aliquam vel metus ac lectus finibus pellentesque eget sit amet enim. Praesent a bibendum lectus. Pellentesque varius leo a sapien sollicitudin, et ultrices enim posuere. Aliquam erat volutpat. Vivamus feugiat efficitur ipsum in viverra. Donec vitae feugiat mauris, eget tempor neque. Vivamus massa ligula, ornare in vehicula eget, placerat at ligula. Cras eu suscipit libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed consectetur quam. Nulla ac lorem nec lacus euismod auctor. Curabitur malesuada interdum leo, ac hendrerit nibh venenatis non. Fusce feugiat luctus magna vel egestas. Aenean in ex pretium massa laoreet eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed congue libero eu turpis feugiat sollicitudin. Quisque finibus eu arcu non vestibulum. Donec non interdum nulla, eget condimentum justo. Sed nec consectetur arcu. Suspendisse pharetra semper nisl eu efficitur. Proin dictum sit amet elit eget porta. Integer nec metus lacus. Praesent et nunc pellentesque, rutrum urna vitae, laoreet augue. Sed vestibulum nulla nulla, varius gravida augue consequat vel. Nulla a urna volutpat, volutpat lorem sollicitudin, vulputate nulla. Suspendisse eleifend urna ac tellus maximus, id pulvinar sem tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lorem lorem, accumsan nec magna facilisis, dignissim consequat ante. Ut dapibus arcu ac elementum tempor. Proin sed sodales lorem. Curabitur ante ligula, lacinia vestibulum sollicitudin et, ullamcorper ut nulla. Morbi malesuada orci sed lorem volutpat pellentesque. Integer hendrerit nisl vitae erat tempus, a venenatis felis viverra. Sed gravida arcu sodales egestas fringilla. Integer tincidunt consequat vehicula. Duis sagittis nibh et justo consequat accumsan. Maecenas finibus maximus pretium. Proin laoreet enim id nisl cursus blandit. Sed non rutrum dolor, tincidunt scelerisque arcu. Ut lobortis laoreet interdum. Aliquam id eros nisi. Pellentesque venenatis lectus quis tristique scelerisque. Cras id odio nibh. Curabitur dapibus pharetra ante, eu viverra nisl blandit non. Integer imperdiet feugiat eros quis malesuada. Mauris venenatis quis nunc non faucibus. Nam feugiat vitae lorem et tristique. Sed sollicitudin massa ut mattis pulvinar. Suspendisse molestie magna vel mi tincidunt tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ornare quis mauris a gravida. Praesent viverra ut ante posuere aliquet. Aenean iaculis felis risus, et venenatis libero aliquet et. Aliquam vel metus ac lectus finibus pellentesque eget sit amet enim. Praesent a bibendum lectus. Pellentesque varius leo a sapien sollicitudin, et ultrices enim posuere. Aliquam erat volutpat. Vivamus feugiat efficitur ipsum in viverra. Donec vitae feugiat mauris, eget tempor neque. Vivamus massa ligula, ornare in vehicula eget, placerat at ligula. Cras eu suscipit libero.</p>
+											</div>
+										</li>
+										<li class="accordion-sub-item">
+											<div class="scroll-accordion-header accordion-sub-header">
+												<h3 class="scroll-accordion-header-title">Sub-accordion item 2</h3>
+												<div class="scroll-accordion-header-detail text-right pr-xxs">
+													<i class="icon-xs icon-chevron-purple"></i>
+												</div>
+											</div>
+											<div class="scroll-accordion-body accordion-main-body">
+												<h2>Title</h2>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed consectetur quam. Nulla ac lorem nec lacus euismod auctor. Curabitur malesuada interdum leo, ac hendrerit nibh venenatis non. Fusce feugiat luctus magna vel egestas. Aenean in ex pretium massa laoreet eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed congue libero eu turpis feugiat sollicitudin. Quisque finibus eu arcu non vestibulum. Donec non interdum nulla, eget condimentum justo. Sed nec consectetur arcu. Suspendisse pharetra semper nisl eu efficitur. Proin dictum sit amet elit eget porta. Integer nec metus lacus. Praesent et nunc pellentesque, rutrum urna vitae, laoreet augue. Sed vestibulum nulla nulla, varius gravida augue consequat vel. Nulla a urna volutpat, volutpat lorem sollicitudin, vulputate nulla. Suspendisse eleifend urna ac tellus maximus, id pulvinar sem tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lorem lorem, accumsan nec magna facilisis, dignissim consequat ante. Ut dapibus arcu ac elementum tempor. Proin sed sodales lorem. Curabitur ante ligula, lacinia vestibulum sollicitudin et, ullamcorper ut nulla. Morbi malesuada orci sed lorem volutpat pellentesque. Integer hendrerit nisl vitae erat tempus, a venenatis felis viverra. Sed gravida arcu sodales egestas fringilla. Integer tincidunt consequat vehicula. Duis sagittis nibh et justo consequat accumsan. Maecenas finibus maximus pretium. Proin laoreet enim id nisl cursus blandit. Sed non rutrum dolor, tincidunt scelerisque arcu. Ut lobortis laoreet interdum.</p>
+												<h4>Subtitle</h4>
+												<p>Aliquam id eros nisi. Pellentesque venenatis lectus quis tristique scelerisque. Cras id odio nibh. Curabitur dapibus pharetra ante, eu viverra nisl blandit non. Integer imperdiet feugiat eros quis malesuada. Mauris venenatis quis nunc non faucibus. Nam feugiat vitae lorem et tristique. Sed sollicitudin massa ut mattis pulvinar. Suspendisse molestie magna vel mi tincidunt tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ornare quis mauris a gravida. Praesent viverra ut ante posuere aliquet. Aenean iaculis felis risus, et venenatis libero aliquet et. Aliquam vel metus ac lectus finibus pellentesque eget sit amet enim. Praesent a bibendum lectus. Pellentesque varius leo a sapien sollicitudin, et ultrices enim posuere. Aliquam erat volutpat. Vivamus feugiat efficitur ipsum in viverra. Donec vitae feugiat mauris, eget tempor neque. Vivamus massa ligula, ornare in vehicula eget, placerat at ligula. Cras eu suscipit libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed consectetur quam. Nulla ac lorem nec lacus euismod auctor. Curabitur malesuada interdum leo, ac hendrerit nibh venenatis non. Fusce feugiat luctus magna vel egestas. Aenean in ex pretium massa laoreet eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed congue libero eu turpis feugiat sollicitudin. Quisque finibus eu arcu non vestibulum. Donec non interdum nulla, eget condimentum justo. Sed nec consectetur arcu. Suspendisse pharetra semper nisl eu efficitur. Proin dictum sit amet elit eget porta. Integer nec metus lacus. Praesent et nunc pellentesque, rutrum urna vitae, laoreet augue. Sed vestibulum nulla nulla, varius gravida augue consequat vel. Nulla a urna volutpat, volutpat lorem sollicitudin, vulputate nulla. Suspendisse eleifend urna ac tellus maximus, id pulvinar sem tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lorem lorem, accumsan nec magna facilisis, dignissim consequat ante. Ut dapibus arcu ac elementum tempor.</p>
+												<h4>Subtitle</h4>
+												<p>Proin sed sodales lorem. Curabitur ante ligula, lacinia vestibulum sollicitudin et, ullamcorper ut nulla. Morbi malesuada orci sed lorem volutpat pellentesque. Integer hendrerit nisl vitae erat tempus, a venenatis felis viverra. Sed gravida arcu sodales egestas fringilla. Integer tincidunt consequat vehicula. Duis sagittis nibh et justo consequat accumsan. Maecenas finibus maximus pretium. Proin laoreet enim id nisl cursus blandit. Sed non rutrum dolor, tincidunt scelerisque arcu. Ut lobortis laoreet interdum. Aliquam id eros nisi. Pellentesque venenatis lectus quis tristique scelerisque. Cras id odio nibh. Curabitur dapibus pharetra ante, eu viverra nisl blandit non. Integer imperdiet feugiat eros quis malesuada. Mauris venenatis quis nunc non faucibus. Nam feugiat vitae lorem et tristique. Sed sollicitudin massa ut mattis pulvinar. Suspendisse molestie magna vel mi tincidunt tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ornare quis mauris a gravida. Praesent viverra ut ante posuere aliquet. Aenean iaculis felis risus, et venenatis libero aliquet et. Aliquam vel metus ac lectus finibus pellentesque eget sit amet enim. Praesent a bibendum lectus. Pellentesque varius leo a sapien sollicitudin, et ultrices enim posuere. Aliquam erat volutpat. Vivamus feugiat efficitur ipsum in viverra. Donec vitae feugiat mauris, eget tempor neque. Vivamus massa ligula, ornare in vehicula eget, placerat at ligula. Cras eu suscipit libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed consectetur quam. Nulla ac lorem nec lacus euismod auctor. Curabitur malesuada interdum leo, ac hendrerit nibh venenatis non. Fusce feugiat luctus magna vel egestas. Aenean in ex pretium massa laoreet eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed congue libero eu turpis feugiat sollicitudin. Quisque finibus eu arcu non vestibulum. Donec non interdum nulla, eget condimentum justo. Sed nec consectetur arcu. Suspendisse pharetra semper nisl eu efficitur. Proin dictum sit amet elit eget porta. Integer nec metus lacus. Praesent et nunc pellentesque, rutrum urna vitae, laoreet augue. Sed vestibulum nulla nulla, varius gravida augue consequat vel. Nulla a urna volutpat, volutpat lorem sollicitudin, vulputate nulla. Suspendisse eleifend urna ac tellus maximus, id pulvinar sem tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lorem lorem, accumsan nec magna facilisis, dignissim consequat ante. Ut dapibus arcu ac elementum tempor. Proin sed sodales lorem. Curabitur ante ligula, lacinia vestibulum sollicitudin et, ullamcorper ut nulla. Morbi malesuada orci sed lorem volutpat pellentesque. Integer hendrerit nisl vitae erat tempus, a venenatis felis viverra. Sed gravida arcu sodales egestas fringilla. Integer tincidunt consequat vehicula. Duis sagittis nibh et justo consequat accumsan. Maecenas finibus maximus pretium. Proin laoreet enim id nisl cursus blandit. Sed non rutrum dolor, tincidunt scelerisque arcu. Ut lobortis laoreet interdum. Aliquam id eros nisi. Pellentesque venenatis lectus quis tristique scelerisque. Cras id odio nibh. Curabitur dapibus pharetra ante, eu viverra nisl blandit non. Integer imperdiet feugiat eros quis malesuada. Mauris venenatis quis nunc non faucibus. Nam feugiat vitae lorem et tristique. Sed sollicitudin massa ut mattis pulvinar. Suspendisse molestie magna vel mi tincidunt tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ornare quis mauris a gravida. Praesent viverra ut ante posuere aliquet. Aenean iaculis felis risus, et venenatis libero aliquet et. Aliquam vel metus ac lectus finibus pellentesque eget sit amet enim. Praesent a bibendum lectus. Pellentesque varius leo a sapien sollicitudin, et ultrices enim posuere. Aliquam erat volutpat. Vivamus feugiat efficitur ipsum in viverra. Donec vitae feugiat mauris, eget tempor neque. Vivamus massa ligula, ornare in vehicula eget, placerat at ligula. Cras eu suscipit libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed consectetur quam. Nulla ac lorem nec lacus euismod auctor. Curabitur malesuada interdum leo, ac hendrerit nibh venenatis non. Fusce feugiat luctus magna vel egestas. Aenean in ex pretium massa laoreet eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed congue libero eu turpis feugiat sollicitudin. Quisque finibus eu arcu non vestibulum. Donec non interdum nulla, eget condimentum justo. Sed nec consectetur arcu. Suspendisse pharetra semper nisl eu efficitur. Proin dictum sit amet elit eget porta. Integer nec metus lacus. Praesent et nunc pellentesque, rutrum urna vitae, laoreet augue. Sed vestibulum nulla nulla, varius gravida augue consequat vel. Nulla a urna volutpat, volutpat lorem sollicitudin, vulputate nulla. Suspendisse eleifend urna ac tellus maximus, id pulvinar sem tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lorem lorem, accumsan nec magna facilisis, dignissim consequat ante. Ut dapibus arcu ac elementum tempor. Proin sed sodales lorem. Curabitur ante ligula, lacinia vestibulum sollicitudin et, ullamcorper ut nulla. Morbi malesuada orci sed lorem volutpat pellentesque. Integer hendrerit nisl vitae erat tempus, a venenatis felis viverra. Sed gravida arcu sodales egestas fringilla. Integer tincidunt consequat vehicula. Duis sagittis nibh et justo consequat accumsan. Maecenas finibus maximus pretium. Proin laoreet enim id nisl cursus blandit. Sed non rutrum dolor, tincidunt scelerisque arcu. Ut lobortis laoreet interdum. Aliquam id eros nisi. Pellentesque venenatis lectus quis tristique scelerisque. Cras id odio nibh. Curabitur dapibus pharetra ante, eu viverra nisl blandit non. Integer imperdiet feugiat eros quis malesuada. Mauris venenatis quis nunc non faucibus. Nam feugiat vitae lorem et tristique. Sed sollicitudin massa ut mattis pulvinar. Suspendisse molestie magna vel mi tincidunt tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ornare quis mauris a gravida. Praesent viverra ut ante posuere aliquet. Aenean iaculis felis risus, et venenatis libero aliquet et. Aliquam vel metus ac lectus finibus pellentesque eget sit amet enim. Praesent a bibendum lectus. Pellentesque varius leo a sapien sollicitudin, et ultrices enim posuere. Aliquam erat volutpat. Vivamus feugiat efficitur ipsum in viverra. Donec vitae feugiat mauris, eget tempor neque. Vivamus massa ligula, ornare in vehicula eget, placerat at ligula. Cras eu suscipit libero.</p>
+											</div>
+										</li>
+										<li class="accordion-sub-item">
+											<div class="scroll-accordion-header accordion-sub-header">
+												<h3 class="scroll-accordion-header-title">Sub-accordion item 3</h3>
+												<div class="scroll-accordion-header-detail text-right pr-xxs">
+													<i class="icon-xs icon-chevron-purple"></i>
+												</div>
+											</div>
+											<div class="scroll-accordion-body accordion-main-body">
+												<h2>Title</h2>
+												<p>Aliquam id eros nisi. Pellentesque venenatis lectus quis tristique scelerisque. Cras id odio nibh. Curabitur dapibus pharetra ante, eu viverra nisl blandit non. Integer imperdiet feugiat eros quis malesuada. Mauris venenatis quis nunc non faucibus. Nam feugiat vitae lorem et tristique. Sed sollicitudin massa ut mattis pulvinar. Suspendisse molestie magna vel mi tincidunt tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ornare quis mauris a gravida. Praesent viverra ut ante posuere aliquet. Aenean iaculis felis risus, et venenatis libero aliquet et. Aliquam vel metus ac lectus finibus pellentesque eget sit amet enim. Praesent a bibendum lectus. Pellentesque varius leo a sapien sollicitudin, et ultrices enim posuere. Aliquam erat volutpat. Vivamus feugiat efficitur ipsum in viverra. Donec vitae feugiat mauris, eget tempor neque. Vivamus massa ligula, ornare in vehicula eget, placerat at ligula. Cras eu suscipit libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed consectetur quam. Nulla ac lorem nec lacus euismod auctor. Curabitur malesuada interdum leo, ac hendrerit nibh venenatis non. Fusce feugiat luctus magna vel egestas. Aenean in ex pretium massa laoreet eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed congue libero eu turpis feugiat sollicitudin. Quisque finibus eu arcu non vestibulum. Donec non interdum nulla, eget condimentum justo. Sed nec consectetur arcu. Suspendisse pharetra semper nisl eu efficitur. Proin dictum sit amet elit eget porta. Integer nec metus lacus. Praesent et nunc pellentesque, rutrum urna vitae, laoreet augue. Sed vestibulum nulla nulla, varius gravida augue consequat vel. Nulla a urna volutpat, volutpat lorem sollicitudin, vulputate nulla. Suspendisse eleifend urna ac tellus maximus, id pulvinar sem tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lorem lorem, accumsan nec magna facilisis, dignissim consequat ante. Ut dapibus arcu ac elementum tempor. Proin sed sodales lorem. Curabitur ante ligula, lacinia vestibulum sollicitudin et, ullamcorper ut nulla. Morbi malesuada orci sed lorem volutpat pellentesque. Integer hendrerit nisl vitae erat tempus, a venenatis felis viverra. Sed gravida arcu sodales egestas fringilla. Integer tincidunt consequat vehicula. Duis sagittis nibh et justo consequat accumsan. Maecenas finibus maximus pretium. Proin laoreet enim id nisl cursus blandit. Sed non rutrum dolor, tincidunt scelerisque arcu. Ut lobortis laoreet interdum. Aliquam id eros nisi. Pellentesque venenatis lectus quis tristique scelerisque. Cras id odio nibh. Curabitur dapibus pharetra ante, eu viverra nisl blandit non. Integer imperdiet feugiat eros quis malesuada. Mauris venenatis quis nunc non faucibus. Nam feugiat vitae lorem et tristique. Sed sollicitudin massa ut mattis pulvinar. Suspendisse molestie magna vel mi tincidunt tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ornare quis mauris a gravida. Praesent viverra ut ante posuere aliquet. Aenean iaculis felis risus, et venenatis libero aliquet et. Aliquam vel metus ac lectus finibus pellentesque eget sit amet enim. Praesent a bibendum lectus. Pellentesque varius leo a sapien sollicitudin, et ultrices enim posuere. Aliquam erat volutpat. Vivamus feugiat efficitur ipsum in viverra. Donec vitae feugiat mauris, eget tempor neque. Vivamus massa ligula, ornare in vehicula eget, placerat at ligula. Cras eu suscipit libero.</p>
+												<h4>Subtitle</h4>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed consectetur quam. Nulla ac lorem nec lacus euismod auctor. Curabitur malesuada interdum leo, ac hendrerit nibh venenatis non. Fusce feugiat luctus magna vel egestas. Aenean in ex pretium massa laoreet eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed congue libero eu turpis feugiat sollicitudin. Quisque finibus eu arcu non vestibulum. Donec non interdum nulla, eget condimentum justo. Sed nec consectetur arcu. Suspendisse pharetra semper nisl eu efficitur. Proin dictum sit amet elit eget porta. Integer nec metus lacus. Praesent et nunc pellentesque, rutrum urna vitae, laoreet augue. Sed vestibulum nulla nulla, varius gravida augue consequat vel. Nulla a urna volutpat, volutpat lorem sollicitudin, vulputate nulla. Suspendisse eleifend urna ac tellus maximus, id pulvinar sem tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lorem lorem, accumsan nec magna facilisis, dignissim consequat ante. Ut dapibus arcu ac elementum tempor. Proin sed sodales lorem. Curabitur ante ligula, lacinia vestibulum sollicitudin et, ullamcorper ut nulla. Morbi malesuada orci sed lorem volutpat pellentesque. Integer hendrerit nisl vitae erat tempus, a venenatis felis viverra. Sed gravida arcu sodales egestas fringilla. Integer tincidunt consequat vehicula. Duis sagittis nibh et justo consequat accumsan. Maecenas finibus maximus pretium. Proin laoreet enim id nisl cursus blandit. Sed non rutrum dolor, tincidunt scelerisque arcu. Ut lobortis laoreet interdum.</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</main>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="js/scrollAccordion.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
