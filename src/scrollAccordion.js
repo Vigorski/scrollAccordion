@@ -1,3 +1,11 @@
+/*!
+ * scrollAccordion v2.0.0
+ * A simple accordion for annoyingly long content
+ * https://github.com/Vigorski/scrollAccordion
+ * MIT License
+ * by Igor Veleski
+ */
+
 'use strict';
 
 (function ($) {
@@ -283,8 +291,8 @@
 					for(let i = 0; i < item.tags.length; i++) {
 						const eleTag = item.tags[i].trim();
 						if (eleTag.length === 0) continue;
-						const eleClass = item.classNames[i].trim();
-						const eleText = item.texts[i].trim();
+						const eleClass = v.isEmpty(item.classNames) ? '' : item.classNames[i].trim();
+						const eleText = v.isEmpty(item.texts) ? '' : item.texts[i].trim();
 						const ele = document.createElement(eleTag);
 
 						if (eleClass.length) {
