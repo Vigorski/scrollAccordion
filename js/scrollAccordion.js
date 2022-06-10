@@ -1,3 +1,11 @@
+/*!
+ * scrollAccordion v2.0.0
+ * A simple accordion for annoyingly long content
+ * https://github.com/Vigorski/scrollAccordion
+ * MIT License
+ * by Igor Veleski
+ */
+
 'use strict';
 
 (function ($) {
@@ -420,7 +428,9 @@
 		}
 
 		function collapseAll($accHeader) {
-			accordionOptions.expandAllSource.removeClass('expanded-all');
+			if (isValid.expandAllSource) {
+				accordionOptions.expandAllSource.removeClass('expanded-all');
+			}
 			accordionOptions.initialAllExpanded = false;
 			$accHeader
 				.parent()
@@ -430,7 +440,9 @@
 		}
 
 		function expandAll($accHeader) {
-			accordionOptions.expandAllSource.addClass('expanded-all');
+			if (isValid.expandAllSource) {
+				accordionOptions.expandAllSource.addClass('expanded-all');
+			}
 			accordionOptions.initialAllExpanded = true;
 			$accHeader
 				.parent()
