@@ -1,3 +1,11 @@
+/*!
+ * scrollAccordion v2.0.0
+ * A simple accordion for annoyingly long content
+ * https://github.com/Vigorski/scrollAccordion
+ * MIT License
+ * by Igor Veleski
+ */
+
 'use strict';
 
 (function ($) {
