@@ -420,7 +420,9 @@
 		}
 
 		function collapseAll($accHeader) {
-			accordionOptions.expandAllSource.removeClass('expanded-all');
+			if (isValid.expandAllSource) {
+				accordionOptions.expandAllSource.removeClass('expanded-all');
+			}
 			accordionOptions.initialAllExpanded = false;
 			$accHeader
 				.parent()
@@ -430,7 +432,9 @@
 		}
 
 		function expandAll($accHeader) {
-			accordionOptions.expandAllSource.addClass('expanded-all');
+			if (isValid.expandAllSource) {
+				accordionOptions.expandAllSource.addClass('expanded-all');
+			}
 			accordionOptions.initialAllExpanded = true;
 			$accHeader
 				.parent()
