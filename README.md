@@ -89,3 +89,18 @@ jQuery 3.4
 
 #### RC/2.0.0 
 ##### (Released 17.04.22)
+
+
+## TODO:
+- Put multiple opened items on load
+- Add custom classes to header & body
+- Add methods (if any changes to existing accordion):
+	- destroy
+	- instantiate
+	- refresh
+- Change name of showMultiple
+- Add events: 
+	- beforeOpen
+	- beforeClose
+	- onOpen
+	- onClose
